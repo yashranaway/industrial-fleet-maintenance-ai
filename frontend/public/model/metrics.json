@@ -1,0 +1,6 @@
+{
+  "best_model": "xgboost",
+  "xgboost": { "accuracy": 0.988, "auc": 0.973 },
+  "random_forest": { "accuracy": 0.983, "auc": 0.976 },
+  "logistic_regression": { "accuracy": 0.968, "auc": 0.900 }
+}
