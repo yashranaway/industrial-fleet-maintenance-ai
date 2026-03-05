@@ -1,26 +1,11 @@
-# Predictive Maintenance Dashboard (Next.js)
+# Frontend
 
-## Prerequisites
-- Backend running at http://localhost:8000 (see ../backend/README.md)
-- Node.js 18+
+See the [root README](../README.md) for full documentation, setup instructions, and tech stack.
 
-## Setup
-```
-cd frontend
+## Quick Start
+
+```bash
 npm install
+cp .env.local.example .env.local  # Add your Replicate API token
+npm run dev                        # http://localhost:3000
 ```
-
-## Run
-```
-NEXT_PUBLIC_API_BASE=http://localhost:8000 npm run dev
-```
-
-Open http://localhost:3000
-
-## Build
-```
-npm run build
-npm start
-```
-
-Optional: copy .env.local.example to .env.local and set NEXT_PUBLIC_API_BASE.
