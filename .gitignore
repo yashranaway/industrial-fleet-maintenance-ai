@@ -26,6 +26,7 @@ build/
 .cache/
 
 # Python (for local tooling/scripts only)
+venv/
 .venv/
 __pycache__/
 *.pyc
